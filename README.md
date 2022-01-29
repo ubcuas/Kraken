@@ -8,4 +8,4 @@
 
 **Maintainers**
 - Alexander Chudinov
-- Bigfoot
+- Nazare Neal
