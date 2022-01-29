@@ -1,0 +1,306 @@
+{
+    "Heartbeat": {
+        "customMode": 0,
+        "type": 2,
+        "autopilot": 3,
+        "baseMode": 81,
+        "systemStatus": 3,
+        "mavlinkVersion": 3
+    },
+    "Attitude": {
+        "timeBootMs": 7303322,
+        "roll": -0.012032818049192429,
+        "pitch": 0.005098775029182434,
+        "yaw": 0.3425753116607666,
+        "rollspeed": 0.00010360547457821667,
+        "pitchspeed": 0.0002665971405804157,
+        "yawspeed": -0.001026518177241087
+    },
+    "GlobalPositionInt": {
+        "timeBootMs": 7303322,
+        "lat": 0,
+        "lon": 0,
+        "alt": 0,
+        "relativeAlt": -1503,
+        "vx": -18,
+        "vy": -70,
+        "vz": 1,
+        "hdg": 1962
+    },
+    "SysStatus": {
+        "onboardControlSensorsPresent": 1383136271,
+        "onboardControlSensorsEnabled": 1382030351,
+        "onboardControlSensorsHealth": 1114676235,
+        "load": 235,
+        "voltageBattery": 0,
+        "currentBattery": -1,
+        "dropRateComm": 0,
+        "errorsComm": 0,
+        "errorsCount1": 0,
+        "errorsCount2": 0,
+        "errorsCount3": 0,
+        "errorsCount4": 0,
+        "batteryRemaining": -1
+    },
+    "PowerStatus": {
+        "Vcc": 5024,
+        "Vservo": 60,
+        "flags": 4
+    },
+    "MemInfo": {
+        "brkval": 0,
+        "freemem": 65535,
+        "freemem32": 829656
+    },
+    "NavControllerOutput": {
+        "navRoll": 0.00008373236778425053,
+        "navPitch": 0.000002198511992901331,
+        "altError": 0,
+        "aspdError": 0,
+        "xtrackError": 0,
+        "navBearing": 19,
+        "targetBearing": 0,
+        "wpDist": 0
+    },
+    "MissionCurrent": {
+        "seq": 0
+    },
+    "VfrHud": {
+        "airspeed": 0,
+        "groundspeed": 0.7246403694152832,
+        "alt": 0,
+        "climb": -0.018352104350924492,
+        "heading": 19,
+        "throttle": 0
+    },
+    "ServoOutputRaw": {
+        "timeUsec": 3008355356,
+        "servo1Raw": 980,
+        "servo2Raw": 980,
+        "servo3Raw": 980,
+        "servo4Raw": 980,
+        "servo5Raw": 0,
+        "servo6Raw": 0,
+        "servo7Raw": 0,
+        "servo8Raw": 0,
+        "port": 0,
+        "servo9Raw": 0,
+        "servo10Raw": 0,
+        "servo11Raw": 0,
+        "servo12Raw": 0,
+        "servo13Raw": 0,
+        "servo14Raw": 0,
+        "servo15Raw": 0,
+        "servo16Raw": 0
+    },
+    "RcChannels": {
+        "timeBootMs": 7303322,
+        "chan1Raw": 0,
+        "chan2Raw": 0,
+        "chan3Raw": 0,
+        "chan4Raw": 0,
+        "chan5Raw": 0,
+        "chan6Raw": 0,
+        "chan7Raw": 0,
+        "chan8Raw": 0,
+        "chan9Raw": 0,
+        "chan10Raw": 0,
+        "chan11Raw": 0,
+        "chan12Raw": 0,
+        "chan13Raw": 0,
+        "chan14Raw": 0,
+        "chan15Raw": 0,
+        "chan16Raw": 0,
+        "chan17Raw": 0,
+        "chan18Raw": 0,
+        "chancount": 0,
+        "rssi": 0
+    },
+    "RawImu": {
+        "timeUsec": "7303322712",
+        "xacc": 14,
+        "yacc": 8,
+        "zacc": -995,
+        "xgyro": 0,
+        "ygyro": 2,
+        "zgyro": -1,
+        "xmag": 0,
+        "ymag": 0,
+        "zmag": 0,
+        "id": 0,
+        "temperature": 4499
+    },
+    "ScaledImu2": {
+        "timeBootMs": 7303322,
+        "xacc": 19,
+        "yacc": 15,
+        "zacc": -1000,
+        "xgyro": 0,
+        "ygyro": 0,
+        "zgyro": 0,
+        "xmag": -77,
+        "ymag": -149,
+        "zmag": 649,
+        "temperature": 4345
+    },
+    "ScaledImu3": {
+        "timeBootMs": 7303322,
+        "xacc": -4,
+        "yacc": 16,
+        "zacc": -998,
+        "xgyro": -2,
+        "ygyro": -1,
+        "zgyro": 2,
+        "xmag": 0,
+        "ymag": 0,
+        "zmag": 0,
+        "temperature": 4849
+    },
+    "ScaledPressure": {
+        "timeBootMs": 7303322,
+        "pressAbs": 1010.5739135742188,
+        "pressDiff": 0,
+        "temperature": 4271,
+        "temperaturePressDiff": 0
+    },
+    "ScaledPressure2": {
+        "timeBootMs": 7303322,
+        "pressAbs": 1012.4259033203125,
+        "pressDiff": 0,
+        "temperature": 4403,
+        "temperaturePressDiff": 0
+    },
+    "GpsRawInt": {
+        "timeUsec": "0",
+        "lat": 0,
+        "lon": 0,
+        "alt": 0,
+        "eph": 65535,
+        "epv": 65535,
+        "vel": 0,
+        "cog": 0,
+        "fixType": 0,
+        "satellitesVisible": 0,
+        "altEllipsoid": 0,
+        "hAcc": 0,
+        "vAcc": 0,
+        "velAcc": 0,
+        "hdgAcc": 0,
+        "yaw": 0
+    },
+    "SystemTime": {
+        "timeUnixUsec": "0",
+        "timeBootMs": 7303325
+    },
+    "Ahrs": {
+        "omegaIx": -0.00027916536782868207,
+        "omegaIy": -0.0020834878087043762,
+        "omegaIz": 0,
+        "accelWeight": 0,
+        "renormVal": 0,
+        "errorRp": 0.00037029801751486957,
+        "errorYaw": 1
+    },
+    "Ahrs2": {
+        "roll": 0.030714107677340508,
+        "pitch": -0.023457076400518417,
+        "yaw": -1.293372392654419,
+        "altitude": -1.5,
+        "lat": 0,
+        "lng": 0
+    },
+    "HwStatus": {
+        "Vcc": 5024,
+        "I2Cerr": 0
+    },
+    "TerrainReport": {
+        "lat": 0,
+        "lon": 0,
+        "terrainHeight": 0,
+        "currentHeight": 0,
+        "spacing": 0,
+        "pending": 0,
+        "loaded": 0
+    },
+    "EkfStatusReport": {
+        "velocityVariance": 0,
+        "posHorizVariance": 0.00695787463337183,
+        "posVertVariance": 0.0032976074144244194,
+        "compassVariance": 0,
+        "terrainAltVariance": 0,
+        "flags": 0,
+        "airspeedVariance": 0
+    },
+    "Vibration": {
+        "timeUsec": "7303327164",
+        "vibrationX": 0.016456538811326027,
+        "vibrationY": 0.01454688049852848,
+        "vibrationZ": 0.021801728755235672,
+        "clipping0": 0,
+        "clipping1": 0,
+        "clipping2": 0
+    },
+    "BatteryStatus": {
+        "currentConsumed": -1,
+        "energyConsumed": -1,
+        "temperature": 32767,
+        "voltages": [
+            65535,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535,
+            65535
+        ],
+        "currentBattery": -1,
+        "id": 0,
+        "batteryFunction": 0,
+        "type": 0,
+        "batteryRemaining": 100,
+        "timeRemaining": 0,
+        "chargeState": 1,
+        "voltagesExt": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "mode": 0,
+        "faultBitmask": 0
+    },
+    "SensorOffsets": {
+        "magDeclination": 0,
+        "rawPress": 101058,
+        "rawTemp": 4270,
+        "gyroCalX": -0.028803657740354538,
+        "gyroCalY": 0.002594640478491783,
+        "gyroCalZ": 0.011699345894157887,
+        "accelCalX": 0.03712163865566254,
+        "accelCalY": 0.178308367729187,
+        "accelCalZ": -0.01681278459727764,
+        "magOfsX": 0,
+        "magOfsY": 0,
+        "magOfsZ": 0
+    },
+    "StatusText": {
+        "severity": 6,
+        "text": "EKF3 IMU1 tilt alignment complete",
+        "id": 0,
+        "chunkSeq": 0
+    },
+    "TimeSync": {
+        "tc1": "0",
+        "ts1": "7299425047001"
+    },
+    "ParamValue": {
+        "paramValue": 56075,
+        "paramCount": 995,
+        "paramIndex": 65535,
+        "paramId": "STAT_RUNTIME",
+        "paramType": 6
+    }
+}
