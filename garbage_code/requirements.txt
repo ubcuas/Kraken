@@ -1,2 +1,0 @@
-pymavlink==2.4.18
-mavsdk==0.21.0
