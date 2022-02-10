@@ -1,8 +1,17 @@
-use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
-use kraken::greet;
+extern crate actix_web;
+use actix_web::{get, post, web, App, HttpRequest, HttpResponse, HttpServer, Responder};
 
-fn main() {
-    greet();
+#[get("/heartbeat")]
+async fn heartbeat() -> impl Responder {
+    HttpResponse::Ok().body("Kraken is alive!")
+}
+
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
+    HttpServer::new(|| App::new().service(heartbeat))
+        .bind("0.0.0.0:6007")?
+        .run()
+        .await
 }
 
 // WISHLIST
