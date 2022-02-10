@@ -9,3 +9,4 @@
 **Maintainers**
 - Alexander Chudinov
 - Nazare Neal
+- Stanley Zhao
