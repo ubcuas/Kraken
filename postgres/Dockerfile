@@ -1,2 +1,2 @@
 FROM postgres:10.6
-EXPOSE 5432
+COPY init.sql /docker-entrypoint-initdb.d/
