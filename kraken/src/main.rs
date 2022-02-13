@@ -42,9 +42,9 @@ pub fn get_all_telemetry() -> Vec<kraken::Telemetry> {
 async fn main() -> std::io::Result<()> {
     dotenv().ok();
 
-    for t in get_all_telemetry() {
-        println!("TELEMETRY {}: {} - {}{}", t.id, t.key, t.value, t.unit);
-    }
+    // for t in get_all_telemetry() {
+    //     println!("TELEMETRY {}: {} - {}{}", t.id, t.key, t.value, t.unit);
+    // }
 
     HttpServer::new(|| {
         App::new()
