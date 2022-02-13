@@ -1,7 +1,9 @@
 #[macro_use]
 extern crate dotenv_codegen;
 use postgres::{Client, Error, NoTls};
+use serde::Serialize;
 
+#[derive(Serialize)]
 pub struct Telemetry {
     pub id: i32,
     pub key: String,

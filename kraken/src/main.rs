@@ -1,10 +1,13 @@
+#[macro_use]
+extern crate dotenv_codegen;
+
 use actix_web::{get, post, web, App, HttpRequest, HttpResponse, HttpServer, Responder};
 use dotenv::dotenv;
-use json::{object, stringify};
 use kraken;
+use serde_json;
 
 // [FOR WEB ENDPOINTS] PORT THAT KRAKEN LISTENS ON
-const KRAKEN_PORT: i32 = 6007;
+const KRAKEN_PORT: &str = dotenv!("KRAKEN_PORT");
 
 #[get("/heartbeat")]
 async fn heartbeat_endpoint() -> impl Responder {
@@ -15,13 +18,7 @@ async fn heartbeat_endpoint() -> impl Responder {
 
 #[get("/telemetry")]
 async fn telemetry_endpoint() -> impl Responder {
-    let placeholder_telemetry = object! {
-        latitude_dege7: 150000,
-        longitude_dege7: 60000,
-        altitude_msl_m: 15.34,
-        heading_deg: 234.32
-    };
-    HttpResponse::Ok().body(stringify(placeholder_telemetry))
+    HttpResponse::Ok().body(serde_json::to_string(&get_all_telemetry()).unwrap())
 }
 
 pub fn get_all_telemetry() -> Vec<kraken::Telemetry> {
